@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pc product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <header>
+            <a href="#" class="logo">Marbouh</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">price</a></li>
+                <li><a href="#">Prodact</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="title">
+                <h1 id="title">HP ELITEBOOK 840 G5</h1>
+                <p>RAM : <span id="ram">8GO</span></p>
+                <p >STORAGE : <span id="storage">256 SSD</span></p>
+                <p>Gel : <span id="gel">i7 6eme</span></p>
+                <p>PROCESSEUR : <span id="processeur">2.60GHZ</span></p>
+            </div>
+
+            <img id="img" src="0.png">
+        </div>
+
+        <div class="icone">
+            <img onclick="imgM(this.src) , content('HP ELITEBOOK 840 G5', '8GO','256 SSD' ,'i7 6eme','2.60GHZ' )" src="0.png" >
+            <img onclick="imgM(this.src) , content('HP ELITEBOOK 830 G5', '16GO','256 SSD' ,'i7 8eme','2.54GHZ' )" src="1.png" >
+            <img onclick="imgM(this.src) , content('MAC PRO 8', '32GO','256 SSD' ,'i9 11eme','3GHZ' )" src="2.png" >
+            <img onclick="imgM(this.src) , content('MAC PRO 6', '8GO','512 SSD' ,'i7 6eme','2.87GHZ' )" src="5.png" >
+        </div>
+        
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
